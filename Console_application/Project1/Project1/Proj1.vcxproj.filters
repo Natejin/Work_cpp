@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Program">
+      <UniqueIdentifier>{28807784-9393-4231-86f6-4fedc4d1f3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function">
+      <UniqueIdentifier>{09891c0b-7d2b-48ca-b6d9-bbaf512d077e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function\Header Files">
+      <UniqueIdentifier>{1d426d81-267b-47c5-904f-07f1269fc648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function\Source Files">
+      <UniqueIdentifier>{0966b481-4031-41cb-9ef2-5ff920ed9500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sub_Main">
+      <UniqueIdentifier>{b18c035f-ae4a-45ca-b783-25e7467707fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{c408803b-4ff1-4751-84c9-8169ab0591a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Useful_fuction script">
+      <UniqueIdentifier>{c3486a3e-0486-437d-a964-dd6752ea4277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\My_Function">
+      <UniqueIdentifier>{bc1bee24-5432-4313-a219-6902f9d2d07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\My_Function\Source_FIle">
+      <UniqueIdentifier>{66309239-c846-4917-bf68-358e864cbfb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\My_Function\Header_Files">
+      <UniqueIdentifier>{03497378-1091-45c3-ac1e-aa381622dac6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Member.cpp">
+      <Filter>Source Files\Function\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EHArray.cpp">
+      <Filter>Source Files\Function\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic_Allocation_example.cpp">
+      <Filter>Source Files\Function\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComFunc.cpp">
+      <Filter>Source Files\Function\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Classprop.cpp">
+      <Filter>Source Files\Function\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Sub_Main1.cpp">
+      <Filter>Source Files\Sub_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_main.cpp">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="T_main.cpp">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw_sin_Graph.cpp">
+      <Filter>Source Files\Useful_fuction script</Filter>
+    </ClCompile>
+    <ClCompile Include="My_Struct.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="My_Array.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="My_DMA.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="My_String.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype_of_Useful_Function.cpp">
+      <Filter>Source Files\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="My_Linked_lists.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classprop.h">
+      <Filter>Source Files\Function\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComFunc.h">
+      <Filter>Source Files\Function\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic_Allocation_example.h">
+      <Filter>Source Files\Function\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EHArray.h">
+      <Filter>Source Files\Function\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Member.h">
+      <Filter>Source Files\Function\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Struct.h">
+      <Filter>Source Files\My_Function\Header_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Array.h">
+      <Filter>Source Files\My_Function\Header_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_DMA.h">
+      <Filter>Source Files\My_Function\Header_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_String.h">
+      <Filter>Source Files\My_Function\Header_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Linked_lists.h">
+      <Filter>Source Files\My_Function\Header_Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
