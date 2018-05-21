@@ -103,10 +103,13 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <BrowseInformation>true</BrowseInformation>
+      <AdditionalIncludeDirectories>D:\opencv\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>D:\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world341d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Bscmake>
       <PreserveSbr>true</PreserveSbr>
@@ -147,6 +150,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Inline_math.cpp" />
     <ClCompile Include="My_Array.cpp" />
     <ClCompile Include="Classprop.cpp" />
     <ClCompile Include="ComFunc.cpp" />
@@ -157,11 +161,13 @@
     </ClCompile>
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="My_DMA.cpp" />
+    <ClCompile Include="My_Opencv.cpp" />
     <ClCompile Include="My_String.cpp" />
     <ClCompile Include="My_Struct.cpp" />
     <ClCompile Include="Draw_sin_Graph.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="My_Pointer.cpp" />
     <ClCompile Include="Prototype_of_Useful_Function.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -185,6 +191,7 @@
     <ClInclude Include="Member.h" />
     <ClInclude Include="My_DMA.h" />
     <ClInclude Include="My_Linked_lists.h" />
+    <ClInclude Include="My_Pointer.h" />
     <ClInclude Include="My_String.h" />
     <ClInclude Include="My_Struct.h" />
   </ItemGroup>

@@ -247,6 +247,17 @@ void Memory_function()
 	else
 		printf("arr 과 arr2 는 일치 안함 \n");
 
+//#define PrintVariableName(var) printf(#var"\n");
+//	PrintVariableName(var)
+
+	char arr5[10];
+	char *parr5=arr5;
+	scanf_s("%s", parr5,sizeof(parr5));
+	printf("%s",arr5);
+
+	typedef int Arrays[10];
+	typedef int(*Padd)(int, int);
+
 }
 
 #pragma endregion

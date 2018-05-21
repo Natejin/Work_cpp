@@ -39,6 +39,9 @@
     <Filter Include="Source Files\My_Function\Header_Files">
       <UniqueIdentifier>{03497378-1091-45c3-ac1e-aa381622dac6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Inline">
+      <UniqueIdentifier>{7ed21c08-42ba-4d3c-b6b7-dfc2b0e016ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Member.cpp">
@@ -89,6 +92,15 @@
     <ClCompile Include="My_Linked_lists.cpp">
       <Filter>Source Files\My_Function\Source_FIle</Filter>
     </ClCompile>
+    <ClCompile Include="My_Opencv.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="Inline_math.cpp">
+      <Filter>Source Files\Inline</Filter>
+    </ClCompile>
+    <ClCompile Include="My_Pointer.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classprop.h">
@@ -119,6 +131,9 @@
       <Filter>Source Files\My_Function\Header_Files</Filter>
     </ClInclude>
     <ClInclude Include="My_Linked_lists.h">
+      <Filter>Source Files\My_Function\Header_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Pointer.h">
       <Filter>Source Files\My_Function\Header_Files</Filter>
     </ClInclude>
   </ItemGroup>
