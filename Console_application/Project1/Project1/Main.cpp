@@ -1,6 +1,7 @@
 #include <stdio.h>
 //#include <stdlib.h>
 //#include <conio.h>		   //_getch
+//#include <direct.h> //mkdir
 #include <string.h>       // memset 
 #include "My_Array.h" 
 #include "My_String.h"
@@ -8,6 +9,8 @@
 #include "My_DMA.h"
 #include "My_Linked_lists.h"
 #include "My_Pointer.h"
+#include "My_InOutPut.h"
+#include "Main_of_Useful_function.h"
 
 #pragma warning( disable : 4477)
 #pragma warning( disable : 4473)		// scanf_s not enough arguments passed for format string
@@ -36,7 +39,7 @@ int main()
 	unsigned int Index;
 Initiate_Program:
 	printf("\n\n____________________________________________________________________________\n");
-	printf("0: Zombie\n");
+	printf("0: Useful_function\n");
 	printf("1: Array\n");
 	printf("2: Pointer\n");
 	printf("3: Function\n");
@@ -44,6 +47,7 @@ Initiate_Program:
 	printf("5: Structure\n");
 	printf("6: Dynamic Memory Alloication\n");
 	printf("7: Linked Lists\n");
+	printf("8: In-Output\n");
 	printf("\n____________________________________________________________________________\n");
 	printf("\nInput value : ");
 	scanf_s("%d", &Index);
@@ -51,7 +55,7 @@ Initiate_Program:
 	switch (Index)
 	{
 	case(0):
-		test();
+		Main_Useful_function();
 		goto Initiate_Program;
 		break;
 	case(1):
@@ -80,6 +84,10 @@ Initiate_Program:
 		break;
 	case(7):
 		My_Linked_lists();
+		goto Initiate_Program;
+		break;
+	case(8):
+		My_InOutPut();
 		goto Initiate_Program;
 		break;
 		
@@ -414,17 +422,17 @@ int test()
 	//printf("%06x %06x %06x %d\n", ppa, pa, a, a);
 	//printf("%06x %06x %06x %d\n", ppb, pb, b, b);
 
-	int arr[10];
-	int i;
+	//int arr[10];
+	//int i;
 
-	for (i = 0; i < 10; i++)
-	{
-		scanf_s("%d", &arr[i]);
-	}
-	for (i = 0; i <= 10; i++)
-	{
-		printf("%d \n", arr[i]);
-	}
+	//for (i = 0; i < 10; i++)
+	//{
+	//	scanf_s("%d", &arr[i]);
+	//}
+	//for (i = 0; i <= 10; i++)
+	//{
+	//	printf("%d \n", arr[i]);
+	//}
 	return 0;
 
 }

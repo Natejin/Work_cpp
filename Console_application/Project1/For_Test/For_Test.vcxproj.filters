@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Project1\Draw_sin_Graph.cpp">
+    <ClCompile Include="Control_Grade.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestFile.cpp">
+    <ClCompile Include="Opencv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,1 +1,5 @@
-﻿  Proj1.vcxproj -> D:\Work_cpp\Console_application\Project1\x64\Debug\Proj1.exe
+﻿  Grade_Control.cpp
+d:\work_cpp\console_application\project1\project1\grade_control.cpp(90): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type '::size_t'
+  d:\work_cpp\console_application\project1\project1\grade_control.cpp(90): note: this argument is used as a buffer size
+  Main_of_Useful_function.cpp
+  Proj1.vcxproj -> D:\Work_cpp\Console_application\Project1\x64\Debug\Proj1.exe

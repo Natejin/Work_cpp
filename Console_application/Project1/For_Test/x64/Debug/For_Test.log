@@ -1,3 +1,4 @@
-﻿  Draw_sin_Graph.cpp
-  TestFile.cpp
+﻿  Control_Grade.cpp
+d:\work_cpp\console_application\project1\for_test\control_grade.cpp(111): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type '::size_t'
+  d:\work_cpp\console_application\project1\for_test\control_grade.cpp(111): note: this argument is used as a buffer size
   For_Test.vcxproj -> D:\Work_cpp\Console_application\Project1\x64\Debug\For_Test.exe

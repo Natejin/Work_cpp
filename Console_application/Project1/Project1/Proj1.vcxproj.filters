@@ -27,9 +27,6 @@
     <Filter Include="Source Files\Main">
       <UniqueIdentifier>{c408803b-4ff1-4751-84c9-8169ab0591a8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Useful_fuction script">
-      <UniqueIdentifier>{c3486a3e-0486-437d-a964-dd6752ea4277}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\My_Function">
       <UniqueIdentifier>{bc1bee24-5432-4313-a219-6902f9d2d07b}</UniqueIdentifier>
     </Filter>
@@ -41,6 +38,12 @@
     </Filter>
     <Filter Include="Source Files\Inline">
       <UniqueIdentifier>{7ed21c08-42ba-4d3c-b6b7-dfc2b0e016ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Useful_Program script">
+      <UniqueIdentifier>{c3486a3e-0486-437d-a964-dd6752ea4277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Useful_Program script\Header">
+      <UniqueIdentifier>{b8ff0c66-bf09-4c40-beb7-156fb8e50201}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -71,9 +74,6 @@
     <ClCompile Include="T_main.cpp">
       <Filter>Source Files\Program</Filter>
     </ClCompile>
-    <ClCompile Include="Draw_sin_Graph.cpp">
-      <Filter>Source Files\Useful_fuction script</Filter>
-    </ClCompile>
     <ClCompile Include="My_Struct.cpp">
       <Filter>Source Files\My_Function\Source_FIle</Filter>
     </ClCompile>
@@ -99,6 +99,15 @@
       <Filter>Source Files\Inline</Filter>
     </ClCompile>
     <ClCompile Include="My_Pointer.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="My_InOutPut.cpp">
+      <Filter>Source Files\My_Function\Source_FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="Grade_Control.cpp">
+      <Filter>Source Files\Useful_Program script</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_of_Useful_function.cpp">
       <Filter>Source Files\My_Function\Source_FIle</Filter>
     </ClCompile>
   </ItemGroup>
@@ -134,6 +143,15 @@
       <Filter>Source Files\My_Function\Header_Files</Filter>
     </ClInclude>
     <ClInclude Include="My_Pointer.h">
+      <Filter>Source Files\My_Function\Header_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_InOutPut.h">
+      <Filter>Source Files\My_Function\Header_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grade_Control.h">
+      <Filter>Source Files\Useful_Program script\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_of_Useful_function.h">
       <Filter>Source Files\My_Function\Header_Files</Filter>
     </ClInclude>
   </ItemGroup>

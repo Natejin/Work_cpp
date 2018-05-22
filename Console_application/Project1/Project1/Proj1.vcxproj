@@ -150,7 +150,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Grade_Control.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Inline_math.cpp" />
+    <ClCompile Include="Main_of_Useful_function.cpp" />
     <ClCompile Include="My_Array.cpp" />
     <ClCompile Include="Classprop.cpp" />
     <ClCompile Include="ComFunc.cpp" />
@@ -161,12 +165,10 @@
     </ClCompile>
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="My_DMA.cpp" />
+    <ClCompile Include="My_InOutPut.cpp" />
     <ClCompile Include="My_Opencv.cpp" />
     <ClCompile Include="My_String.cpp" />
     <ClCompile Include="My_Struct.cpp" />
-    <ClCompile Include="Draw_sin_Graph.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="My_Pointer.cpp" />
     <ClCompile Include="Prototype_of_Useful_Function.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -183,6 +185,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Grade_Control.h" />
+    <ClInclude Include="Main_of_Useful_function.h" />
     <ClInclude Include="My_Array.h" />
     <ClInclude Include="Classprop.h" />
     <ClInclude Include="ComFunc.h" />
@@ -190,6 +194,7 @@
     <ClInclude Include="EHArray.h" />
     <ClInclude Include="Member.h" />
     <ClInclude Include="My_DMA.h" />
+    <ClInclude Include="My_InOutPut.h" />
     <ClInclude Include="My_Linked_lists.h" />
     <ClInclude Include="My_Pointer.h" />
     <ClInclude Include="My_String.h" />
